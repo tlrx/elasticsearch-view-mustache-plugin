@@ -1,0 +1,24 @@
+<assembly>
+    <id>zip</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+
+    <!-- Adds dependencies to zip package under lib directory -->
+    <dependencySets>
+        <dependencySet>
+            <includes>
+                <include>com.github.spullara.mustache.java:compiler</include>
+                <include>com.google.guava:guava</include>
+                <include>com.google.code.findbugs:jsr305</include>
+            </includes>
+        </dependencySet>
+    </dependencySets>
+
+    <files>
+        <file>
+            <source>target/${project.artifactId}-${project.version}.jar</source>
+        </file>
+    </files>
+</assembly>
