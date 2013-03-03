@@ -3,7 +3,7 @@
 
     <groupId>com.github.tlrx</groupId>
     <artifactId>elasticsearch-view-mustache-plugin</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
     <name>elasticsearch-view-mustache-plugin</name>
     <description>ElasticSearch plugin that allows to use Mustache templates with the ElasticSearch View Plugin</description>
